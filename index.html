@@ -1,14 +1,111 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Meet landing page</title>
-</head>
-<body>
-  
-</body>
+    <header class="header">
+      <img class="logo" src="./assets/logo.svg" alt="">
+    </header>
+
+    <main class="main">
+      <section class="profile-content">
+        <div class="row">
+          <div class="col-6 col-md-4">
+            <img class="w-100" src="./assets/desktop/image-hero-left.png" alt="">
+          </div>
+          <div class="d-none d-md-block col-md-4">
+            <div class="content d-flex flex-column align-items-center text-center gap-3 pt-5">
+              <h1 class="main-title fw-bold">Group Chat <br> for Everyone</h1>
+              <p class="px-5 txt-info">
+                Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
+              </p>
+              <div class="btn rounded-5 text-white fw-bold my-btn --btn-bg-blue">Download <span class="version-txt">v1.3</span></div>
+              <div class="btn rounded-5 text-white fw-bold my-btn --btn-bg-purple">What is it?</div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <img class="w-100" src="./assets/desktop/image-hero-right.png" alt="">
+          </div>
+        </div>
+
+        <div class="row d-md-none">
+          <div class="col-12">
+            <div class="content d-flex flex-column align-items-center text-center gap-3 pt-5">
+              <h1 class="main-title fw-bold">Group Chat <br> for Everyone</h1>
+              <p class="px-5 txt-info">
+                Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
+              </p>
+              <div class="btn rounded-5 text-white fw-bold my-btn --btn-bg-blue">Download <span class="version-txt">v1.3</span></div>
+              <div class="btn rounded-5 text-white fw-bold my-btn --btn-bg-purple">What is it?</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="number-section">
+        <div class="circle-container">
+          <span class="number-1 fw-bold">01</span>
+        </div>
+      </section>
+
+      <section class="pictures mx-3">
+        <div class="row">
+          <div class="col-6 col-sm-3 p-2">
+            <div class="img-elem-container">
+              <img class="img-elem" src="./assets/desktop/image-woman-in-videocall.jpg" alt="">
+            </div>
+          </div>
+          
+          <div class="col-6 col-sm-3 p-2">
+            <div class="img-elem-container">
+              <img class="img-elem" src="./assets/desktop/image-women-videochatting.jpg" alt="">
+            </div>
+          </div>
+          
+          <div class="col-6 col-sm-3 p-2">
+            <div class="img-elem-container">
+              <img class="img-elem" src="./assets/desktop/image-men-in-meeting.jpg" alt="">
+            </div>
+          </div>
+          
+          <div class="col-6 col-sm-3 p-2">
+            <div class="img-elem-container">
+              <img class="img-elem" src="./assets/desktop/image-man-texting.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mt-5 content-2 z-3">
+        <h3 class="title-secondary fw-bold">built for modern use</h3>
+        <h2 class="main-title fw-bold">Smarter meetings,<br>all in one place</h2>
+        <p class="px-3 txt-info">
+          Send messages, share files, show your screen, and record your meetings — all in one workspace. Control who can join with invite-only team access, data encryption, and data export.
+        </p>
+      </section>
+
+      <section class="number-section">
+        <div class="circle-container bg-white try">
+          <span class="number-1 fw-bold">02</span>
+        </div>
+      </section>
+    </main>
+    
+    <footer class="footer d-flex flex-md-row flex-column align-items-center text-center gap-5 justify-content-center px-5 pb-md-5">
+      <div class="footer-opacity"></div>
+      <h3 class="footer-title">Experience more together</h3>
+      <p class="footer-info">
+        Stay connected with reliable HD meeting and unlimited one-on-one and group video sessions.
+      </p>
+      <div class="btn rounded-5 text-white fw-bold my-btn --btn-bg-purple z-1 position-relative">Download <span class="version-txt">v1.3</span></div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
 </html>
